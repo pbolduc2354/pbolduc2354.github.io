@@ -23,7 +23,7 @@ random_text_string = 'ldlfkjahlfkjhad'
 
 if __name__ == '__main__':  
 
-    with open(PATH_TO_BLOG/'index.htlm', 'w') as f:
+    with open(PATH_TO_BLOG/'index.html', 'w') as f:
         f.write(random_text_string)
 
     update_blog(commit_message='Updates blog')
